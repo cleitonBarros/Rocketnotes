@@ -1,12 +1,13 @@
-import { Button } from "./components/Button"
+import React from "react";
 
+import Details from "./pages/Details";
 
 function App() {
   return (
     <>
-    <Button type="button" title="Enviar" />
+      <Details />;
     </>
-  )
+  );
 }
 
-export default App
+export default App;
