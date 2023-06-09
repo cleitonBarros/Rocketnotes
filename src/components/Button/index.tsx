@@ -2,7 +2,7 @@ import React from "react";
 
 import * as S from "./styled";
 
-interface ButtonProps {
+interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
   title: string;
   isLoading?: boolean;
 }

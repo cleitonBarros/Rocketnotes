@@ -1,5 +1,5 @@
-import React from "react";
 import * as S from "./styled";
+
 import { Power } from "@phosphor-icons/react";
 
 export function Header() {
