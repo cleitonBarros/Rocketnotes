@@ -9,7 +9,7 @@ interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
 
 export function Button({ title, isLoading = false, ...props }: ButtonProps) {
   return (
-    <S.Container disabled={isLoading} {...props}>
+    <S.Container type="button" disabled={isLoading} {...props}>
       {isLoading ? "Carregando..." : title}
     </S.Container>
   );
