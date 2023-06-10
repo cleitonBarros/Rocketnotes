@@ -14,7 +14,6 @@ export default createGlobalStyle`
         background: ${({ theme }) => theme.COLORS.BACKGROUND_800};
         color: ${({ theme }) => theme.COLORS.WHITE};
         font-family: 'Roboto Slab', serif;
-
         -webkit-font-smoothing: antialiased;
     }
 
