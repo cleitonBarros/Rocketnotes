@@ -1,3 +1,4 @@
+import { Plus } from "@phosphor-icons/react";
 import { ButtonText } from "../../components/ButonText";
 import { Header } from "../../components/Header";
 
@@ -23,7 +24,10 @@ export function Home() {
       </S.Menu>
       <S.Search></S.Search>
       <S.Content></S.Content>
-      <S.NewNotes></S.NewNotes>
+      <S.NewNotes>
+        <Plus />
+        Criar Nota
+      </S.NewNotes>
     </S.Container>
   );
 }
