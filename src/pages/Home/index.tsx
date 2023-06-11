@@ -1,8 +1,10 @@
-import { Plus } from "@phosphor-icons/react";
 import { ButtonText } from "../../components/ButonText";
 import { Header } from "../../components/Header";
+import { Input } from "../../components/Input";
 
 import * as S from "./styled";
+
+import { Plus } from "@phosphor-icons/react";
 
 export function Home() {
   return (
@@ -22,7 +24,9 @@ export function Home() {
           <ButtonText title="NodeJS" />
         </li>
       </S.Menu>
-      <S.Search></S.Search>
+      <S.Search>
+        <Input placeholder="Pesquise um titulo" />
+      </S.Search>
       <S.Content></S.Content>
       <S.NewNotes>
         <Plus />
