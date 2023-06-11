@@ -1,7 +1,7 @@
 import { ButtonText } from "../../components/ButonText";
 import { Button } from "../../components/Button";
 import { Header } from "../../components/Header";
-import { Section } from "../../components/section";
+import { Section } from "../../components/Section";
 import { Tag } from "../../components/Tags";
 
 import * as S from "./styled";
