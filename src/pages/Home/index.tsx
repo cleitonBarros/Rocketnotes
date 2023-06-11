@@ -4,7 +4,7 @@ import { Input } from "../../components/Input";
 
 import * as S from "./styled";
 
-import { Plus } from "@phosphor-icons/react";
+import { MagnifyingGlass, Plus } from "@phosphor-icons/react";
 
 export function Home() {
   return (
@@ -25,7 +25,7 @@ export function Home() {
         </li>
       </S.Menu>
       <S.Search>
-        <Input placeholder="Pesquise um titulo" />
+        <Input icon={<MagnifyingGlass />} placeholder="Pesquise um titulo" />
       </S.Search>
       <S.Content></S.Content>
       <S.NewNotes>

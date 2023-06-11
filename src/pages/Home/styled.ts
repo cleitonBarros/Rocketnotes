@@ -44,6 +44,7 @@ export const Menu = styled.ul`
 
 export const Search = styled.div`
   grid-area: search;
+  padding: 3.5rem 3.5rem 0;
 `;
 
 export const Content = styled.div`
