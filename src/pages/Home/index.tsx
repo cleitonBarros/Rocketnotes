@@ -1,6 +1,8 @@
 import { ButtonText } from "../../components/ButonText";
 import { Header } from "../../components/Header";
 import { Input } from "../../components/Input";
+import { Note } from "../../components/Note";
+import { Section } from "../../components/Section";
 
 import * as S from "./styled";
 
@@ -27,7 +29,19 @@ export function Home() {
       <S.Search>
         <Input icon={<MagnifyingGlass />} placeholder="Pesquise um titulo" />
       </S.Search>
-      <S.Content></S.Content>
+      <S.Content>
+        <Section title="Minhas notas">
+          <Note
+            data={{
+              title: "React",
+              tags: [
+                { id: "1", name: "react" },
+                { id: "2", name: "rocketseat" }
+              ]
+            }}
+          />
+        </Section>
+      </S.Content>
       <S.NewNotes>
         <Plus />
         Criar Nota

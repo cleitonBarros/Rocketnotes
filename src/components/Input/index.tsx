@@ -5,7 +5,7 @@ interface InputProps extends React.InputHTMLAttributes<HTMLInputElement> {
 export function Input({ icon, ...props }: InputProps) {
   return (
     <S.Container>
-      {icon}
+      {icon && icon}
       <input {...props} />
     </S.Container>
   );

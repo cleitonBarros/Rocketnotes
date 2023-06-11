@@ -44,11 +44,13 @@ export const Menu = styled.ul`
 
 export const Search = styled.div`
   grid-area: search;
-  padding: 3.5rem 3.5rem 0;
+  padding: 4rem 4rem 0;
 `;
 
 export const Content = styled.div`
   grid-area: content;
+  padding: 0 4rem;
+  overflow-y: auto;
 `;
 
 export const NewNotes = styled.button`
