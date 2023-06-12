@@ -1,10 +1,9 @@
-import { Home } from "./pages/Home";
-import { Profile } from "./pages/Profile";
+import { NewNote } from "./pages/New";
 
 function App() {
   return (
     <>
-      <Profile />
+      <NewNote />
     </>
   );
 }
