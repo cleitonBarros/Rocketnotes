@@ -1,10 +1,10 @@
 import { Home } from "./pages/Home";
-import { SignUp } from "./pages/Signup";
+import { Profile } from "./pages/Profile";
 
 function App() {
   return (
     <>
-      <SignUp />
+      <Profile />
     </>
   );
 }
