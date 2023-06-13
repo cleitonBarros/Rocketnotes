@@ -1,9 +1,9 @@
-import { NewNote } from "./pages/New";
+import { Routes } from "./routes";
 
 function App() {
   return (
     <>
-      <NewNote />
+      <Routes />
     </>
   );
 }

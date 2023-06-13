@@ -42,7 +42,7 @@ export function Home() {
           />
         </Section>
       </S.Content>
-      <S.NewNotes>
+      <S.NewNotes to="/new">
         <Plus />
         Criar Nota
       </S.NewNotes>

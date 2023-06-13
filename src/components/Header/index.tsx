@@ -5,7 +5,7 @@ import { Power } from "@phosphor-icons/react";
 export function Header() {
   return (
     <S.Container>
-      <S.Profile>
+      <S.Profile to="/profile">
         <img src="https://github.com/cleitonBarros.png" alt="foto do usuario" />
 
         <div>

@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 import { Button } from "../../components/Button";
 import { Input } from "../../components/Input";
 
@@ -20,7 +22,7 @@ export function SignUp() {
         <Input placeholder="Senha" type="text" icon={<LockSimple />} />
 
         <Button type="submit" title="Cadastrar" />
-        <a href="#">Voltar para o login</a>
+        <Link to="/">Voltar para o login</Link>
       </S.Form>
     </S.Container>
   );
